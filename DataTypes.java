@@ -27,6 +27,7 @@ public class DataTypes {
         System.out.println(eligibleToVote);
 
         char firstCharacter = 'a';
-        System.out.println(firstCharacter);
+        System.out.println(firstCharacter + (firstCharacter+2));
+        System.out.println((char)(firstCharacter+2));
     }
 }
