@@ -29,5 +29,14 @@ public class DataTypes {
         char firstCharacter = 'a';
         System.out.println(firstCharacter + (firstCharacter+2));
         System.out.println((char)(firstCharacter+2));
+
+        byte num7 = 12;
+        int newNum = num7;
+        System.out.println(newNum);
+
+
+        long value1 = 145678923;
+        int value2 = (int)value1;
+        System.out.println(value2);
     }
 }
